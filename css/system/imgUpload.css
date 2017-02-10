@@ -1,0 +1,64 @@
+.main{
+	height: 100%;
+	padding: 20px;
+}
+.m_title{
+	text-align: center;
+	margin-bottom: 10px;
+	height: 30px;
+}
+.m_box{
+	width: 70%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.m_data{
+	float: left;
+}
+.m_pstiong{
+	float: right;
+}
+.m_btn{
+	margin-top: 10px;
+	text-align: center;
+	clear: both;
+}
+.m_imglist{
+	margin-top: 10px;
+	width: 60%;
+	border: 1px solid #CCC;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: auto;
+}
+.mi_list{
+	height: 30px;
+	line-height: 30px;
+	margin: 5px;
+	overflow: hidden;
+}
+.mi_list.success{
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	color: #3c763d;
+}
+.mi_list.danger{
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+}
+.mil_title{
+	float: left;
+	font-weight: bold;
+	margin-left: 10px;
+	width: 70%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.mil_state{
+	float: right;
+	margin-right: 10px;
+}

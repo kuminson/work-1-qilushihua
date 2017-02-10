@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>齐鲁石化档案馆</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 引入重置样式 -->
+	<link rel="stylesheet" type="text/css" href="/css/common/reset.css">
+	<!-- html5标签兼容IE678 -->
+	<!--[if lt IE 9]>
+	<script src="/js/common/IE9.js" type="text/javascript"></script>
+	<![endif]-->
+	<!-- 引入easyui样式 -->
+	<link rel="stylesheet" type="text/css" href="/resource/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="/resource/easyui/themes/default/easyui.css">
+	<!-- 引入index样式 -->
+	<link rel="stylesheet" type="text/css" href="/css/system/imgUpload.css">
+</head>
+<body>
+	<div class="main">
+		<!-- 标题 -->
+		
+		<div class="m_box">
+			<!-- 日期 -->
+			<div class="m_data">
+		    <input id="md_data" class="easyui-datebox">
+			</div>
+			<!-- 位置下拉框 -->
+			<div class="m_pstiong">
+		    <input id="mp_pstion" name="dept" value="国家级">
+			</div>
+		</div>
+		<!-- 上传文件 -->
+		<div class="m_btn">
+			<input id="mb_upload" class="easyui-filebox" style="height:30px;width:40%;">
+		</div>
+	    <!-- 提交按钮 -->
+		<div class="m_btn">
+			<a id="mb_submit" href="javascript:void(0)" class="easyui-linkbutton" style="height:30px;width:60px">提 交</a>
+		</div>
+		<!-- 上传列表 -->
+		<ul id="m_imglist" class="m_imglist">
+		</ul>
+	</div>
+	<!-- 引入jQuery -->
+	<script type="text/javascript" src="/resource/jquery/jquery-1.11.3.min.js"></script>
+	<!-- 引入easyui -->
+	<script type="text/javascript" src="/resource/easyui/jquery.easyui.min.js"></script>
+	<!-- 引入JS文件 -->
+	<script type="text/javascript" src="/js/system/imgUpload.js"></script>
+</body>
+</html>

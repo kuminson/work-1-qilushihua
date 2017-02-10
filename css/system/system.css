@@ -1,0 +1,84 @@
+/*头部*/
+.header{
+	background:url(/images/system/bg_header.jpg) repeat-x center bottom;
+}
+.h_title{
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+	color: #FFF;
+	letter-spacing: 2px;
+}
+.h_welcome{
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	margin-right: 5px;
+	margin-top: 6px;
+	color: #FFF;
+}
+.h_welcome strong{
+	font-weight: bold;
+}
+.h_toolbar{
+	clear: right;
+	float: right;
+	margin-right: 5px;
+	height: 20px;
+	line-height: 20px;
+}
+.ht_btn{
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 12px;
+	line-height: 12px;
+	margin-top: 2px;
+	border-right: 1px solid #FFF;
+	float: left;
+}
+.ht_btn.last{
+	border-right: none;
+}
+.ht_btn a{
+	color: #FFF;
+	font-size: 12px;
+}
+
+/*侧边栏*/
+.a_list{
+	width: 100%;
+}
+.al_btn{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	text-indent: 2em;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+.al_btn:hover{
+	background-color: #EAF2FF;
+	border: 1px solid #EAF2FF;
+}
+.al_btn.active{
+	background-color: #fbec88;
+	border: 1px solid #fade23;
+}
+.list_icon{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/*脚部*/
+.footer{
+	text-align: center;
+	line-height: 28px;
+	background-color: #e0ecff;
+}
