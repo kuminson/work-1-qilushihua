@@ -63,7 +63,8 @@ body{
 	height: 92px;
 	width: 100%;
 	min-width: 1000px;
-	background:url(/images/common/head/body.jpg) no-repeat scroll 50% top;
+	background:url(/images/common/head/head_left.jpg) no-repeat scroll -200px top;
+	position: relative;
 }
 .h_box{
 	width: 1000px;
@@ -82,6 +83,15 @@ body{
 	line-height: 92px;
 	color: #1D2089;
 	font-weight: bold;
+}
+.h_back{
+	display: block;
+	height: 100px;
+	width: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background:url(/images/common/head/head_right.png) no-repeat left top;
 }
 /*nav*/
 .nav{
