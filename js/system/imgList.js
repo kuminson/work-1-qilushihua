@@ -31,7 +31,7 @@ function initTextListGrid(){
 	$("#art_grid").datagrid({
 		toolbar:"#tb",
 		method: "get",
-		url:  "/html/system/imgList.json" ,
+		url: "/work-1-qilushihua/html/system/imgList.json" ,
 		fitColumns: true,
 		fit:true,
 		columns: textColumns,
@@ -49,7 +49,7 @@ function initTextListGrid(){
 // 初始化下拉框
 function initComboBox(){
 	$("#t_pstion").combobox({
-		url:"/html/system/textComboBox.json",
+		url: "/work-1-qilushihua/html/system/textComboBox.json",
 		method: "get",
 		valueField:'value',
 		textField:'text',

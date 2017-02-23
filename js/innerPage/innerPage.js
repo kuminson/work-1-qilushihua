@@ -160,7 +160,7 @@ function tempPageTurn(){
 		var urlData = {};
 		urlData = GetUrlParms();
 		// 拼接url
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst=" + urlData.fst
 							+"&scd=" + urlData.scd
 							+"&type=" + "article";
@@ -172,7 +172,7 @@ function tempPageTurn(){
 		var urlData = {};
 		urlData = GetUrlParms();
 		// 拼接url
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst=" + urlData.fst
 							+"&scd=" + urlData.scd
 							+"&type=" + "pic";

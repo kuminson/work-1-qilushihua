@@ -100,7 +100,7 @@ function initDateBox(){
 // 初始化下拉框
 function initComboBox(){
 	$("#mp_pstion").combobox({
-		url:"/html/system/textCompileComboBox.json",
+		url: "/work-1-qilushihua/html/system/textCompileComboBox.json",
 		method: "get",
 		valueField:'value',
 		textField:'text',

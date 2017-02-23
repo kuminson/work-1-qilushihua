@@ -11,7 +11,7 @@ function fstNavGoToUrl(){
 		// 不跳转项
 		switch($(this).html()){
 			case "首 页":
-				window.location.href = "/index.html";
+				window.location.href = "/work-1-qilushihua/index.html";
 				return false;
 				break;
 			case "业务系统":
@@ -20,7 +20,7 @@ function fstNavGoToUrl(){
 				break;
 		}
 		// 拼接url
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 					+"fst="+$(this).html();
 		if($(this).html() == "网上展厅"){
 			url += "&type=imglist";
@@ -41,7 +41,7 @@ function scdNavGoToUrl(){
 			return false;
 		}
 		// 拼接url
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst="+$fstnav.html()
 							+"&scd="+$(this).html();
 		if($fstnav.html() == "网上展厅"){

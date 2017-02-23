@@ -24,7 +24,7 @@
 	});
 	// 档案动态文章
 	$(".mdcl_imgbox,.mdcl_title,.mdcl_text").on("click",function(){
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst=" + "档案动态"
 							+"&type=" + "article";
 		window.location.href = encodeURI(url);
@@ -52,7 +52,7 @@
 				break;
 			}
 		}
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst=" + fsthtml
 							+"&scd=" + thisHtml
 							+"&type=" + "article";
@@ -70,7 +70,7 @@
 	});
 	// 网上展厅轮播
 	$(".ms_img").on("click",function(){
-		var url = "/html/innerPage.html?"
+		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst=" + "网上展厅"
 							+"&type=" + "pic";
 		window.location.href = encodeURI(url);
