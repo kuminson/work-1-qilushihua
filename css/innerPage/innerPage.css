@@ -5,7 +5,7 @@
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	background:url(/images/index/ban_bg.jpg) repeat-x 50% bottom;
+	background:url(/work-1-qilushihua/images/index/ban_bg.jpg) repeat-x 50% bottom;
 }
 .b_img{
 	height: 200px;
@@ -30,7 +30,7 @@
 	left: 0;
 	width: 200px;
 	/*background-color: pink;*/
-	background:url(/images/innerPage/main.jpg) no-repeat left bottom;
+	background:url(/work-1-qilushihua/images/innerPage/main.jpg) no-repeat left bottom;
 }
 .ml_title{
 	margin-left: 10px;
@@ -54,7 +54,7 @@
 	margin-top: 5px;
 }
 .mls_title:hover,.mls_title.active{
-	background:url(/images/innerPage/list_left.jpg) no-repeat left 50%;
+	background:url(/work-1-qilushihua/images/innerPage/list_left.jpg) no-repeat left 50%;
 }
 .mlst_link{
 	display: block;
@@ -65,7 +65,7 @@
 	font-weight: bold;
 }
 .mlst_link:hover,.mls_title.active .mlst_link{
-	background:url(/images/innerPage/list_right.jpg) no-repeat right 50%;
+	background:url(/work-1-qilushihua/images/innerPage/list_right.jpg) no-repeat right 50%;
 	color: #FFF;
 }
 
@@ -79,7 +79,7 @@
 .mr_head{
 	height: 33px;
 	line-height: 33px;
-	background:url(/images/innerPage/title_left.jpg) no-repeat left 50%;
+	background:url(/work-1-qilushihua/images/innerPage/title_left.jpg) no-repeat left 50%;
 	overflow: hidden;
 }
 .mrh_title{
@@ -93,7 +93,7 @@
 	font-size: 12px;
 	color: #666666;
 	padding-right: 20px;
-	background:url(/images/innerPage/title_right.jpg) no-repeat right 50%;
+	background:url(/work-1-qilushihua/images/innerPage/title_right.jpg) no-repeat right 50%;
 	height: 33px;
 	line-height: 33px;
 }
@@ -131,7 +131,7 @@
 	padding-right: 10px;
 	height: 32px;
 	line-height: 32px;
-	background:url(/images/innerPage/jiantou1.jpg) no-repeat 10px 50%;
+	background:url(/work-1-qilushihua/images/innerPage/jiantou1.jpg) no-repeat 10px 50%;
 	overflow: hidden;
 }
 .mrctlt_title{
