@@ -40,7 +40,7 @@
 		}
 	});
 	// tab页text
-	$(".mdcl_text").on("click",function(){
+	$(".mdcl_text").not(".md_content .mdcl_text").on("click",function(){
 		// 找到二级菜单名
 		var thisId = $(this).closest(".ofhide").attr("id");
 		var thisHtml = $(".tab_title[href='#"+thisId+"']").html();
