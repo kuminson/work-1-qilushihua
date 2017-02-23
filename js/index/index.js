@@ -23,7 +23,7 @@
 		}
 	});
 	// 档案动态文章
-	$(".mdcl_imgbox,.mdcl_title,.mdcl_text").on("click",function(){
+	$(".mdcl_imgbox,.mdcl_title,.mdc_list").on("click",function(){
 		var url = "/work-1-qilushihua/html/innerPage.html?"
 							+"fst=" + "档案动态"
 							+"&type=" + "article";
