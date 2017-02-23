@@ -55,7 +55,7 @@ function initPage(){
 
 	// ajax 获取二三级菜单及内容
 	$.ajax({
-		url: '/html/navscd.json',
+		url: '/work-1-qilushihua/html/navscd.json',
 		type: 'GET',
 		dataType: 'json',
 		success:function(data){
