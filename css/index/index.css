@@ -31,7 +31,8 @@
 
 /*banner*/
 .banner{
-	height: 375px;
+	/*height: 375px;*/
+	height: 200px;
 	width: 1000px;
 	padding-bottom: 14px;
 	background: url(/work-1-qilushihua/images/index/ban_bg.jpg) repeat-x 50% bottom;
